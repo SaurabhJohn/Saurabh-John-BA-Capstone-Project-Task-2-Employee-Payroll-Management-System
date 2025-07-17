@@ -1,0 +1,26 @@
+# Employee Payroll System (SQL Project)
+
+This project is a SQL-based **Employee Payroll System** designed to store, manage, and analyze salary-related data for employees within an organization. The system is built using MySQL and demonstrates the use of SQL for database design, data manipulation, and payroll analytics.
+
+The database includes a single core table:
+
+- **employees**: Stores employee details including name, department, contact information, joining date, salary, bonus, and tax percentage.
+
+# What I've Done in This Project:
+
+- Designed and created the `payroll_database` schema.
+- Created the `employees` table with appropriate data types.
+- Inserted 10 sample employee records.
+- Written SQL queries to:
+  - List employees sorted by salary in descending order.
+  - Identify employees whose total compensation (salary + bonus) exceeds $100,000.
+  - Apply a 10% bonus increase for employees in the Sales department.
+  - Calculate net salary for each employee after tax deductions.
+  - Retrieve average, minimum, and maximum salaries grouped by department.
+
+# Advanced Analysis Included:
+
+- Identified employees who joined within the last 6 months.
+- Grouped employees by department and counted the number of employees per department.
+- Found the department with the highest average salary.
+- Retrieved employees who share the same salary with at least one other employee.
