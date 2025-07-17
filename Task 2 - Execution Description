@@ -1,0 +1,33 @@
+Employee Payroll Management System (SQL Project)
+
+This project is a SQL-based Payroll Management System developed using PostgreSQL. It is designed to manage and analyze employee payroll data, including salary, bonuses, tax deductions, and departmental insights.
+
+The database consists of a single but well-structured table:
+
+    Employees: Stores employee information such as name, department, contact details, joining date, salary, bonus, and tax percentage.
+
+What I've Done in This Project:
+
+    Created and structured the employees table with appropriate data types and constraints.
+
+    Inserted realistic sample data for 10 employees across multiple departments.
+
+    Written SQL queries to:
+
+        Retrieve a salary-wise sorted list of employees.
+
+        Identify employees earning more than $100,000 in total compensation.
+
+        Update bonus amounts for employees in the Sales department.
+
+        Calculate net salary after tax deductions for all employees.
+
+        Compute average, minimum, and maximum salary for each department.
+
+        Find employees who joined within the last 6 months.
+
+        Count the number of employees in each department.
+
+        Identify the department with the highest average salary.
+
+        Detect employees with matching salary values.
